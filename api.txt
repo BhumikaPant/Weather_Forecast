@@ -1,0 +1,4 @@
+4b8bf4c3e0c5fa72550dc51c23be1798
+
+
+api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={your api key}

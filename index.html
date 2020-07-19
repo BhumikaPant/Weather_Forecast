@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div class=" app-wrap">
+        <header>
+            <input type="text" id="pin" autocomplete="off" class=" search-box" placeholder="Enter the pin code of the place..">
+            <span><button class="btn btn-primary" name="sub" value="submit">Submit</button></span>
+        </header>
+        <main>
+            <section class="location" >
+                <div id="city" class="city">Kashipur</div>
+                <div id=date class="date">03-07-2020</div>
+
+            </section>
+            <div class="current">
+                <div id="temp" class="temp">32<span>°F</span></div>
+                <div id="weather" class="weather">Sunny</div>
+                <div id ="speed" class="hi-low"></div>
+            </div>
+        </main>
+    </div>
+
+</div>
+
+    <!--
+   
+    <div class=fluid-container>
+       <section class="jumbotron  bg-dark text-light"> <h1 class="mt-2 text-center" >GetWeather</h1></section>
+       <div class="container main">
+        
+        <h3>Enter the pincode of the city of which you want to know weather</h3>
+         <form method="POST" action="">
+            <span><input id="pin" type="text" name="pin" placeholder="pincode"></span>
+            
+            <span><button class="btn btn-primary" name="sub" value="submit">submit</button></span>
+        </form>
+
+        <div class="card" >
+        <div class="card-body cardbodystyle">
+            <div class="card-title bg-success">
+                welcome
+            </div>
+            <div class="class-subtitle text-center" id="location"></div>
+            <div class="class-subtitle text-center" id="weather"></div>
+            <div class="class-subtitle text-center" id="temp"></div>
+            <div class="class-subtitle text-center" id="speed"></div>
+          
+        </div>
+        </div>
+       
+       
+        <div class="container">
+        <div id="cars" class="carousel-slide text-success" data-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div id="temp"></div>
+                <div id="humidity">today</div>
+                <div id=" btn btn-primary"></div>
+            </div>
+            <div class="carousel-item ">
+                <div id="temp"></div>
+                <div id="humidity">Yesterday</div>
+                <div id=""></div>
+            </div>
+            <div class="carousel-item ">
+                <div id="temp"></div>
+                <div id="humidity">Tomorrow</div>
+                <div id=""></div>
+            </div>
+            </div>
+        <a class="carousel-control-prev" href="#cars" role="button" dat-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Yesterday</span>
+        </a>
+        <a class="carousel-control-next" href="#cars" role="button" dat-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Tomorrow</span>
+        </a>
+        </div>
+        </div>
+       </div>
+    </div>-->
+    <script src="script.js"></script>
+</body>
+</html>
